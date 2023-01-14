@@ -1,0 +1,362 @@
+/* font style poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* navigation styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px 50px 120px;
+    color: #3A3A3A;
+
+}
+
+.nav h3 {
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.navigation {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+/* first banner section */
+.journey {
+    display: flex;
+    justify-content: center;
+    gap: 133px;
+    margin: 0 120px 0 120px;
+    align-items: center;
+}
+
+.banner-picture {
+    background-image: url(../images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-banner .heading {
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.first-banner .description {
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.primary-btn {
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border: 0;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.primary-btn i,
+.join-now-btn i {
+    margin-left: 8px;
+}
+
+/* -----------------
+logo section styles
+ --------------------*/
+.logos {
+    display: flex;
+    gap: 61px;
+    align-items: center;
+    padding: 42px 0 42px 0;
+    justify-content: center;
+    box-shadow:
+        inset 0px 8px 5px -10px #CCC,
+        inset 0px -8px 5px -10px #CCC;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+}
+
+/* popular collection section styles */
+.popular-section {
+    width: 1047px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.popular-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.products {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 17px 14px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.demo-img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.collection-heading {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fa-star.filled,
+.fa-star-half-stroke.half-filled {
+    color: #FB8200;
+}
+
+.ratting {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.desc {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.see-more {
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------
+Featured products at one place section styles
+----------------------------------------------*/
+.features {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.feature-desc {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+
+.join-now-btn {
+    width: 155px;
+    height: 44px;
+    background: #E02C6D;
+    border: 0;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 700;
+}
+
+/* footer section styles */
+
+.footer {
+    margin-top: 100px;
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    height: 239px;
+}
+
+.footer-heading {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    padding: 80px 0 3px 0;
+}
+
+.footer-desc {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 3px 0 3px 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+
+.footer-icons a i {
+    padding-top: 17px;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+/*------------------------------------- 
+responsive styles for mobile phones
+--------------------------------------*/
+@media screen and (max-width:576px) {
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin: 35px 0 50px 0;
+        color: #3A3A3A;
+    }
+
+    .nav h3 {}
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        align-items: center;
+    }
+
+    .journey {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .banner-picture img {
+        width: 257px;
+        height: 257px;
+    }
+
+    .journey .description {
+        padding: 15px 0 30px 0;
+    }
+    .logos {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        box-shadow: none;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+}
+.popular-section{
+    width: 100%;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin: 0px auto;
+    
+}
+.products{
+    width: 329px;
+height: 476px;
+margin: 0 auto;
+}
+.demo-img{
+    width: 330px;
+height: 256px;
+margin-bottom: 20px;
+}
+.collection-heading {
+    font-weight: 700;
+font-size: 28px;
+}
+.price{
+    font-weight: 700;
+font-size: 24px;
+}
+.desc {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #787885;
+}
+.see-more{
+    margin-top: 30px;
+}
+.features {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.feature-desc{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.feature-img img{
+    width: 299px;
+height: 188px;
+}
+.footer-heading{
+    padding: 50px 0 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
